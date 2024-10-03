@@ -1,0 +1,162 @@
+2022-09-13_10-01-30 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.1.1 on DESKTOP-C4A347J with PID 13752 (C:\Users\Jobin\Documents\MFPE\Authorizatiion-Microservice\target\classes started by Jobin in C:\Users\Jobin\Documents\MFPE\Authorizatiion-Microservice)
+2022-09-13_10-01-30 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9379344-1410-322d-92ae-f70e0aaaca86
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-09-13_10-01-30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-09-13_10-01-30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-13_10-01-30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-13_10-01-30 [restartedMain] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring embedded WebApplicationContext
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9664 ms
+2022-09-13_10-01-30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-13_10-01-30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2022-09-13_10-01-30 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13_10-01-30 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-09-13_10-01-30 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13_10-01-30 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-13_10-01-30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68e4f234, org.springframework.security.web.context.SecurityContextPersistenceFilter@22334754, org.springframework.security.web.header.HeaderWriterFilter@72c9e057, org.springframework.security.web.authentication.logout.LogoutFilter@53523672, com.cts.authorization.config.JwtRequestFilter@6b88c94c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38c0518c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c61ade5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71b40be0, org.springframework.security.web.session.SessionManagementFilter@51cdd38e, org.springframework.security.web.access.ExceptionTranslationFilter@20f3fa6a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@368c5e1a]
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-13_10-01-30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-09-13_10-01-30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/authorization-service'
+2022-09-13_10-01-30 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 25.125 seconds (JVM running for 27.912)
+2022-09-13_10-01-30 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-13_10-01-30 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-09-13_10-01-30 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 163 ms
+2022-09-13_10-01-30 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_10-01-30 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_10-01-30 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_10-01-30 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.1.1 on DESKTOP-C4A347J with PID 15540 (C:\Users\Jobin\Documents\MFPE\Authorizatiion-Microservice\target\classes started by Jobin in C:\Users\Jobin\Documents\MFPE\Authorizatiion-Microservice)
+2022-09-13_14-32-43 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9379344-1410-322d-92ae-f70e0aaaca86
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-09-13_14-32-43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-09-13_14-32-43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-13_14-32-43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-13_14-32-43 [restartedMain] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring embedded WebApplicationContext
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4431 ms
+2022-09-13_14-32-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-13_14-32-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2022-09-13_14-32-43 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-13_14-32-43 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-09-13_14-32-43 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-13_14-32-43 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-13_14-32-43 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fd0a5c5, org.springframework.security.web.context.SecurityContextPersistenceFilter@480154f6, org.springframework.security.web.header.HeaderWriterFilter@1ad3ece0, org.springframework.security.web.authentication.logout.LogoutFilter@222e12ad, com.cts.authorization.config.JwtRequestFilter@4574fe3c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ad2c454, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6078b81e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a24a5a, org.springframework.security.web.session.SessionManagementFilter@6f00543d, org.springframework.security.web.access.ExceptionTranslationFilter@52ea34d3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@280a088f]
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-13_14-32-43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-09-13_14-32-43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/authorization-service'
+2022-09-13_14-32-43 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 11.871 seconds (JVM running for 13.352)
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 182 ms
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Null Token - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Null Token - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-4] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-1] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Null Token - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Null Token - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-6] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-7] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-8] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-9] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-10] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-2] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-3] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-13_14-32-43 [http-nio-8081-exec-5] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController

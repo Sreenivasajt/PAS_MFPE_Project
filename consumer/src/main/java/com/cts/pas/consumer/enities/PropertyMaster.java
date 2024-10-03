@@ -1,0 +1,21 @@
+package com.cts.pas.consumer.enities;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Setter
+@Getter
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+public class PropertyMaster {
+	@Id
+	private int id;
+	private int maxAge;
+	private int minAge;
+	private int index;
+}

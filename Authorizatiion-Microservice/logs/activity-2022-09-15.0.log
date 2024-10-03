@@ -1,0 +1,153 @@
+2022-09-15_14-49-09 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.1.1 on DESKTOP-C4A347J with PID 3948 (C:\Users\Jobin\Documents\MFPE\Authorizatiion-Microservice\target\classes started by Jobin in C:\Users\Jobin\Documents\MFPE\Authorizatiion-Microservice)
+2022-09-15_14-49-09 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 160 ms. Found 1 JPA repository interfaces.
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9379344-1410-322d-92ae-f70e0aaaca86
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-09-15_14-49-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-09-15_14-49-09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-15_14-49-09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-15_14-49-09 [restartedMain] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring embedded WebApplicationContext
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5570 ms
+2022-09-15_14-49-09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-15_14-49-09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2022-09-15_14-49-09 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-15_14-49-09 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-09-15_14-49-09 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-15_14-49-09 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-15_14-49-09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48e5b565, org.springframework.security.web.context.SecurityContextPersistenceFilter@29aa6604, org.springframework.security.web.header.HeaderWriterFilter@74d50283, org.springframework.security.web.authentication.logout.LogoutFilter@3dc0313c, com.cts.authorization.config.JwtRequestFilter@27b15309, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e12cb58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32f9c7dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ba1e356, org.springframework.security.web.session.SessionManagementFilter@1f2d519d, org.springframework.security.web.access.ExceptionTranslationFilter@38b0f064, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52f2eee2]
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-15_14-49-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-09-15_14-49-09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/authorization-service'
+2022-09-15_14-49-09 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 14.401 seconds (JVM running for 16.445)
+2022-09-15_14-49-09 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-15_14-49-09 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-09-15_14-49-09 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 210 ms
+2022-09-15_14-49-09 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_14-49-09 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_14-49-09 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_14-49-09 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_14-49-09 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_14-49-09 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_14-49-09 [http-nio-8081-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_14-49-09 [http-nio-8081-exec-3] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_14-49-09 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_14-49-09 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_14-49-09 [http-nio-8081-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_14-49-09 [http-nio-8081-exec-5] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_14-49-09 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_14-49-09 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_14-49-09 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_14-49-09 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_19-16-13 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.1.1 on DESKTOP-C4A347J with PID 13700 (C:\Users\Jobin\Documents\MFPE\Authorizatiion-Microservice\target\classes started by Jobin in C:\Users\Jobin\Documents\MFPE\Authorizatiion-Microservice)
+2022-09-15_19-16-13 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 216 ms. Found 1 JPA repository interfaces.
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9379344-1410-322d-92ae-f70e0aaaca86
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-09-15_19-16-13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-09-15_19-16-13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-15_19-16-13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-15_19-16-13 [restartedMain] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring embedded WebApplicationContext
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4012 ms
+2022-09-15_19-16-13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-15_19-16-13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2022-09-15_19-16-13 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-15_19-16-13 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-09-15_19-16-13 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-15_19-16-13 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-15_19-16-13 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75bd9144, org.springframework.security.web.context.SecurityContextPersistenceFilter@23c0f7a3, org.springframework.security.web.header.HeaderWriterFilter@4f31eb4, org.springframework.security.web.authentication.logout.LogoutFilter@31361aee, com.cts.authorization.config.JwtRequestFilter@3d644803, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@dde8ac9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fede5c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@689c725c, org.springframework.security.web.session.SessionManagementFilter@147179fd, org.springframework.security.web.access.ExceptionTranslationFilter@4b885470, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@489058a5]
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-15_19-16-13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-09-15_19-16-13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/authorization-service'
+2022-09-15_19-16-13 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 9.263 seconds (JVM running for 12.081)
+2022-09-15_19-16-13 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-15_19-16-13 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-09-15_19-16-13 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-09-15_19-16-13 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_19-16-13 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_19-16-13 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_19-16-13 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.1.1 on DESKTOP-8TJVC9E with PID 9852 (D:\Way-to-Coding-main\PAS_MFPE_Project\Authorizatiion-Microservice\target\classes started by Prasanna Kumar H in D:\Way-to-Coding-main\PAS_MFPE_Project\Authorizatiion-Microservice)
+2022-09-15_23-25-43 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interfaces.
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9379344-1410-322d-92ae-f70e0aaaca86
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-09-15_23-25-43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-09-15_23-25-43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-15_23-25-43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-15_23-25-43 [restartedMain] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring embedded WebApplicationContext
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7005 ms
+2022-09-15_23-25-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-15_23-25-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2022-09-15_23-25-43 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-15_23-25-43 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-09-15_23-25-43 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-15_23-25-43 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-15_23-25-43 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6315db5d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d5f5434, org.springframework.security.web.header.HeaderWriterFilter@3440ae11, org.springframework.security.web.authentication.logout.LogoutFilter@58c91dd, com.cts.authorization.config.JwtRequestFilter@2133460, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66208e1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7787c42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c6edaf7, org.springframework.security.web.session.SessionManagementFilter@1fcb0e69, org.springframework.security.web.access.ExceptionTranslationFilter@29543a3f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f489f4c]
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-15_23-25-43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-09-15_23-25-43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/authorization-service'
+2022-09-15_23-25-43 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 17.033 seconds (JVM running for 18.931)
+2022-09-15_23-25-43 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/authorization-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-15_23-25-43 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-09-15_23-25-43 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-09-15_23-25-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-7] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-6] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-8] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-9] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-2] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-1] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-5] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-3] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2022-09-15_23-25-43 [http-nio-8081-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2022-09-15_23-25-43 [http-nio-8081-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Start JwtAuthenticationController
+2022-09-15_23-25-43 [http-nio-8081-exec-4] INFO  c.c.a.c.JwtAuthenticationController -  Token accepted - End JwtAuthenticationController
